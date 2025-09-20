@@ -1,0 +1,40 @@
+import '../models/profile_info.dart';
+
+const List<ProfileInfo> profileData = [
+  ProfileInfo('General Knowledge', [
+    'What color is the sky on a clear day?',
+    'How many days are there in a week?',
+    'Which shape has 4 equal sides?',
+    'What do plants need to make food?',
+    'Which one is a fruit?',
+    'How many legs does a cat have?',
+    'What is H2O commonly called?',
+    'Which device is used to call someone?',
+    'Which of these is a season?',
+    'What do bees make?',
+  ]),
+  ProfileInfo('Everyday Science', [
+    'What gas do we breathe in to stay alive?',
+    'Which part of the body pumps blood?',
+    'Water changes to ice at what temperature (°C)?',
+    'What natural source provides most light during the day?',
+    'Which one is a renewable energy source?',
+    'Which sense organ helps you see?',
+    'What is the solid form of water called?',
+    'Which planet do we live on?',
+    'Which of these is a simple machine?',
+    'Which state of matter has a definite shape?',
+  ]),
+  ProfileInfo('World & Places', [
+    'What is the largest ocean on Earth?',
+    'Which of these is a continent?',
+    'What is the capital of Japan?',
+    'Mount Everest is in which mountain range?',
+    'The Sahara is a famous what?',
+    'Which country is known as the “Land of the Rising Sun”?',
+    'Which line divides Earth into Northern and Southern Hemispheres?',
+    'What is the longest river in the world (by length)?',
+    'Which country has the city of Sydney?',
+    'Which direction does the Sun rise from?',
+  ]),
+];

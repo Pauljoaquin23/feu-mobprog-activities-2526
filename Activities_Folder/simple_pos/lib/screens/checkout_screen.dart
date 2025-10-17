@@ -24,7 +24,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
   double get _grandTotal =>
       widget.cart.entries.fold(0, (s, e) => s + e.key.price * e.value);
 
-  // simple homemade bar chart (like class activity chart_bar.dart style)
+  
   Widget _categoryBarChart() {
     final counts = <Category, int>{
       Category.drinks: 0,

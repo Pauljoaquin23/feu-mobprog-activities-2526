@@ -20,7 +20,7 @@ class _SimplePOSAppState extends State<SimplePOSApp> {
     });
   }
 
-  // shared cart across the whole app
+  // shared cart 
   final Map<Product, int> _cart = {};
 
   void addToCart(Product p, int qty) {
